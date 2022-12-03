@@ -1,5 +1,7 @@
 // npx tsc -w -p one.ts
 
+export const x = "";
+
 const fs = require('fs');
 
 const input = fs.readFileSync('./input.txt', 'utf8');
